@@ -11,8 +11,8 @@ PAT = 'e3f55e0194bb4ca3b2ff79b63ab9700f'
 USER_ID = 'meta'
 APP_ID = 'Llama-2'
 # Change these to whatever model and text URL you want to use
-MODEL_ID = 'llama2-7b-chat'
-MODEL_VERSION_ID = 'e52af5d6bc22445aa7a6761f327f7129'
+MODEL_ID = 'llama2-70b-chat'
+MODEL_VERSION_ID = '6c27e86364ba461d98de95cddc559cb3'
 
 ############################################################################
 # YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE TO RUN THIS EXAMPLE
@@ -44,6 +44,8 @@ def get_response(raw_text):
                 )
             ]
         ),
+        timeout=2000,
+
         metadata=metadata
     )
     if post_model_outputs_response.status.code != status_code_pb2.SUCCESS:
