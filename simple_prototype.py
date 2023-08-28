@@ -11,7 +11,7 @@ def clear_chat():
 def main():
     c1, c2 = st.columns(2)
     with c1:
-        original_title = '<center><p style="font-size: 80px;">FLAIR</p> \n <p>A Content recommedation system for fashionista </p></center>'
+        original_title = '<center><p style="font-size: 80px;">FLAIR</p> \n <p>A Content recommendation system for fashionista </p></center>'
         st.markdown(original_title, unsafe_allow_html=True)
     
     with c2:
@@ -50,7 +50,7 @@ def main():
             
             with output_col:
                 st.header("OUTPUT RECOMMENDATION:")
-                st.subheader("1. Suggest outfit for the fa:")
+                st.subheader("1. Suggest outfit:")
                 for outfit in data['output']['suggest_outfit']:
                     st.markdown(f'''{outfit}''')
                 
