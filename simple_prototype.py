@@ -11,7 +11,7 @@ def clear_chat():
 def main():
     c1, c2 = st.columns(2)
     with c1:
-        original_title = '<center><p style="font-size: 80px;">FLAIR</p> \n <p>A Conent recommedation system for fashionista </p></center>'
+        original_title = '<center><p style="font-size: 80px;">FLAIR</p> \n <p>A Content recommendation system for fashionista </p></center>'
         st.markdown(original_title, unsafe_allow_html=True)
     
     with c2:
@@ -34,7 +34,7 @@ def main():
             with input_col:
                 # Display input data
                 st.header("USER INPUT:")
-                st.subheader("1. Personal information of the fashionista:")
+                st.subheader("1. Personal information:")
                 st.markdown(f'''**Physic metric**: {data['input']['physic_metric']}''')
                 st.markdown(f'''**Personal favorite**: {data['input']['personal_choice']}''')
                 st.markdown(f'''**History data**: {data['input']['personal_choice']}''')
@@ -42,7 +42,7 @@ def main():
                 st.write("\n\n\n\n")
 
                 
-                st.subheader("2. Product for the fashionista:")
+                st.subheader("2. Product:")
                 st.markdown(f'''**Description**: {data['input']['product_image_description']}''')
 
                 image = Image.open(data['input']['product_image_path'])
@@ -50,25 +50,25 @@ def main():
             
             with output_col:
                 st.header("OUTPUT RECOMMENDATION:")
-                st.subheader("1. Suggest outfit for the fa:")
+                st.subheader("1. Suggest outfit:")
                 for outfit in data['output']['suggest_outfit']:
                     st.markdown(f'''{outfit}''')
                 
                 st.write("\n\n\n\n")
 
-                st.subheader("2. Suggest event for the fashionista:")
+                st.subheader("2. Suggest event:")
                 st.markdown(f'''{data['output']['suggest_event']}''')
                 
                 st.write("\n\n\n\n")
                 
-                st.subheader("3. Explain reasons for the fashionista:")
+                st.subheader("3. Explain reasons:")
                 for reason in data['output']['reason']:
                     st.markdown(f'''{reason}''')
                 
                 st.write("\n\n\n\n")
 
                 if data['output']['illustration'] is not None:
-                    st.subheader("4. Illustration for the revi")
+                    st.subheader("4. Illustration:")
                     image = Image.open(data['output']['illustration'])
                     st.image(image, width=200)
              
