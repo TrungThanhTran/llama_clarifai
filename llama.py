@@ -12,7 +12,7 @@ USER_ID = 'meta'
 APP_ID = 'Llama-2'
 # Change these to whatever model and text URL you want to use
 MODEL_ID = 'llama2-70b-chat'
-MODEL_VERSION_ID = os.environ['MODEL_VERSION']
+MODEL_VERSION_ID = os.environ['MODEL_VERSION_ID']
 
 
 ############################################################################
