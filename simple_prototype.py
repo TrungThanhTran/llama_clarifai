@@ -37,7 +37,7 @@ def main():
                 st.subheader("1. Personal information:")
                 st.markdown(f'''**Physic metric**: {data['input']['physic_metric']}''')
                 st.markdown(f'''**Personal favorite**: {data['input']['personal_choice']}''')
-                st.markdown(f'''**History data**: {data['input']['personal_choice']}''')
+                st.markdown(f'''**History data**: {data['input']['browser_history']}''')
                 
                 st.write("\n\n\n\n")
 
