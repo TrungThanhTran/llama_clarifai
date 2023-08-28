@@ -1,0 +1,22 @@
+{   
+    "input": {
+        "physic_metric": "40 y/o, Finnish female, S-M size, 5.4ft/1.6m, white skin tone",
+        "personal_choice": "purple color mascot, cold skin",
+        "browser_history": "Vaasaa, Finland, autumn-winter period, suit/blazer",
+        "product_image_path": "images/kate-middleton-emilia-wickstead-purple-suit-610x610.jpg",
+        "product_image_description": "a purple suit"
+    },
+    "output": {
+        "suggest_outfit": [
+            "1. Long sleeve tops, sheath, turtleneck, beige",
+            "2. Pant suit, ankle length",
+            "3. Black high heels, stiletto"],
+        "suggest_event":  "Meeting with top clients, works in a bank",
+        "reason": [
+            "1. Sheath tops will fit with the vest, turtle neck shape creates a gentle look and feminine vibe",
+            "2. Ankle length fits the height, accommodate well with the autumn weather, same color represents consistency and professionalism, enough pockets and small ones as they do not need to carry much belongings",
+            "3. Black for a harmony combination, stiletto style creates an elegant look when walking, and the sound of heels is not too loud for the meeting, easy to walk with 40 y/o women"],
+        "illustration": "images/kate-middleton-emilia-wickstead-purple-suit-610x610.jpg"
+    }
+    
+}

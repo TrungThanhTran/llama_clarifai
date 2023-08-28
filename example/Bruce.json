@@ -1,0 +1,23 @@
+{   
+    "input": {
+        "physic_metric": "19 y/o, US male, L size, 6ft/1.8m, 154lbs/70kg, dark skin tone",
+        "personal_choice": "Cotton, sweaty body, navy blue color, around $10, minimalism tribe",
+        "browser_history": "Humid climate, spring, jeans, 90s minimalism style",
+        "product_image_path": "images/16049270_34156734_1000.jpg",
+        "product_image_description": "an orange-white pattern sneakers"
+    },
+    "output": {
+        "suggest_outfit": [
+            "1. Regular fit T-shirt, XL size, cotton or linen, white/beige/sand color",
+            "2. Loose fitting jeans, L size, indigo/navy blue/dark blue color",
+            "3. Glasses in case outdoor and daylight",
+            "4. Watch - dark color, could be black or dark blue"],
+        "suggest_event":  "Outdoor casual party weekend with friends ",
+        "reason": [
+            "1. Cotton and linen are breathable fabrics, does not absorb sweat. Regular fit size XL will allow him to easily move through the crowd. Sand color is a classic and timeless choice. A perfect combination with every color and will never get out of style.",
+            "2. Loose fit jeans are airy and giving a perfect casual look. It adds a touch of your personality to the outfit. The pockets are enough for belongings like wallet, keys and cell-phones. Large size will create featured appearance to be opposite with XL T-Shirt. Indigo is another navy blue’s range and it fits spring season",
+            "3. Glasses in case it’s an outdoor party and in daylight, it’s also portable and can be slinged on the T-shirt",
+            "4. The watch is to improve the appearance, brings a sporty, active vibe."],
+        "illustration": "images/L_g0166529801_001.jpg"
+    }
+}
