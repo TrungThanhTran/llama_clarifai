@@ -1,0 +1,28 @@
+{   
+    "input": {
+        "physic_metric": "29 y/o, Indonesian female, XS size, yellow skin tone ",
+        "personal_choice": "warm, dark color tones, luxury brands",
+        "browser_history": "Elegant, reserve clothes, spring-summer season, fine dining location, must wear hijab",
+        "product_image_path": "images/6953W2453GMLF_1200x.jpg",
+        "product_image_description": "a grey pencil skirt"
+    },
+    "output": {
+        "suggest_outfit": [
+            "1. Long sleeve tops, sheath, turtleneck, beige",
+            "2. Black semi-vest/vest jacket",
+            "3. White blouse-shirt, cotton and polyester, long sleeve",
+            "4. Black mules, no heels for comfortable movement",
+            "5. Flap bag, black, rectangular shape, silver chain"
+        ],
+        "suggest_event":  "Nordic theme restaurant",
+        "reason": [
+            "1. A must to the tradition, but a black one will match the outfit and the theme of a place",
+            "2. Semi-vest is suitable for summer weather, and the air-con inside the places",
+            "3. Cotton and polyester is a perfect mix to create a breathable yet reserve fashion item",
+            "4. Mules are easy to move inside the restaurant, avoid slippery and accidents, create an elegant look",
+            "5. A small flap bag is spacious enough for women’s belonging for dining and personal hygiene: tissue, hand sanitizer, small makeup items, cellphone…"
+        ],
+        "illustration": "images/prada.jpg"
+    }
+    
+}
